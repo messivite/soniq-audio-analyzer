@@ -1,4 +1,4 @@
 flask==3.1.0
-essentia==2.1b6.dev1438
-yt-dlp
-gunicorn
+essentia==2.1b5
+yt-dlp==2025.3.31
+gunicorn==23.0.0
