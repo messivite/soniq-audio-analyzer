@@ -1,4 +1,5 @@
 flask==3.1.0
-essentia==2.1b5
+librosa==0.10.2
+numpy==1.26.4
 yt-dlp==2025.3.31
 gunicorn==23.0.0
