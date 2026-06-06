@@ -12,4 +12,4 @@ COPY main.py .
 
 RUN mkdir -p /tmp/soniq-audio
 
-CMD ["gunicorn", "main:app", "--bind", "0.0.0.0:${PORT:-8090}", "--workers", "2", "--timeout", "120"]
+CMD ["sh", "-c", "gunicorn main:app --bind 0.0.0.0:${PORT:-8090} --workers 2 --timeout 120"]
